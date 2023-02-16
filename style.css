@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(90deg,  #3718bd, #a52d2d);
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.container {
+    justify-content: center;
+    width: 40rem;
+    border: 1px solid rgb(207, 175, 175);
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffffb0;
+    background-color: #ffffff21;
+    box-shadow: 0 15px 40px -20px black;
+    height: 100%;
+ }
+
+.todo-title {
+    display: flex;
+    align-items: center;
+}
+
+.todo-title .title{
+    font-size: 2rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1rem;
+}
+
+img {
+    width: 50px;
+}
+
+.todo-input{
+    width: 90%;
+    height: 3rem;
+    margin-top: 2.5rem;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(233,233,233);
+    font-size: 1.2rem;
+    margin-bottom : 1rem;
+}
+.check {
+    margin-right: 1rem;
+    border: 1px solid black;
+    width: 1rem;
+    border-radius: 50%;
+}
+
+.todo-list{
+    list-style: none;
+    
+    padding: 0px;
+}
+
+.item{
+    width: 90%;
+    height: 3rem;
+    margin-top: 1rem 1.5rem;
+    display: flex;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(233,233,233);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.text-todo{
+    color: rgb(93, 86, 86);
+}
+
+.checkAndText {
+    display: flex;
+    margin-left: 0.5rem;
+}
+
+.fa-solid{
+    color: black;
+    display: block;
+    text-align: right;  
+    margin-right: 1.5rem;  
+}
+
+.delBtn {
+    border: none;
+    background: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.completed-todo{
+    padding:0;
+}
+
+.checked {
+    color: green;
+    background-color: rgb(159, 194, 108);
+}
+
+.checked .text-todo{
+    text-decoration: line-through;
+}
